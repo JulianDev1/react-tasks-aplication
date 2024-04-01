@@ -1,4 +1,12 @@
+import { TaskList } from "./TaskList"
+import { TaskForm } from "./TaskForm"
+
 export function App() {
   return (
-  <h1>Hola mundo</h1>)
+    <> 
+      <TaskList/>
+      <TaskForm/>
+    </>
+  )
 }
+
